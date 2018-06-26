@@ -10,5 +10,22 @@ package inventario1;
  * @author LN710Q
  */
 public class Inventario {
+    public static void main(String[] args){
+    
+    java.awt.EventQueue.invokeLater(new Runnable(){
+        @Override
+        public void run() {
+            new Inscripciones().setVisible(true);
+            
+        }
+        
+    
+    });
+    
+            
+        
+    
+
+}
     
 }
